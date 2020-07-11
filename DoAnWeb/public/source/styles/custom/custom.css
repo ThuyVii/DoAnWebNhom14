@@ -1,0 +1,111 @@
+/*Custom style for index file*/
+.logo_container .logo img{
+	width: 260px !important; 
+	position:relative;
+	bottom: 20px;
+}
+
+.header_search{
+	position: relative;
+	left: 100px;
+}
+
+
+/* Decrease padding-bottom for header_main */
+.header_main{
+	padding-bottom: 0px !important;
+	height: 150px
+}
+
+
+
+/* Custom style for the product page */
+
+.logo_container .logo-on-product img{
+	width: 260px !important;
+	position: relative;
+	top: 20px;
+}
+
+
+/* Style for the cart*/
+.mycart{
+	width: 45px;
+	position: relative;
+	left:15px;
+}
+
+.cart{
+	border:none !important;
+}
+
+.header_search_input{
+	height: 100% !important;
+}
+
+
+
+/* Login-box styles*/
+.sign-in-up{
+	margin:0 auto;
+	padding: 20px 300px;
+	background: rgb(12,32,88);
+	background: linear-gradient(90deg, rgba(12,32,88,1) 0%, rgba(11,148,176,1) 100%);
+}
+
+.sign-in-up h4{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin:20px 0px;
+	color:white;
+}
+
+.sign-in-up .form-block {
+	margin-bottom: 30px;
+}
+
+.sign-in-up .form-block label{
+	color:white;
+	font-size: 17px;
+	float:left];
+}
+
+.sign-in-up .form-block .text-box{
+	padding:5px;
+	border-radius: 4px;
+	border:none;
+	width: 300px;
+	height: 40px;
+	float:right;
+}
+
+.sign-in {
+	margin:0 auto;
+	padding: 40px 100px;
+
+}
+
+.sign-in h4{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.sign-in .form-block .text-box{
+	padding: 15px;
+	width: 300px;
+	border:none;
+	background-color:#E6E6E6;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.sign-in .form-block button{
+	padding :15px;
+	width:300px;
+	border-radius:25px;
+}
+
+.sign-in .form-block .text-box:hover{
+}

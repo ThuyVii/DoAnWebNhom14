@@ -1,0 +1,113 @@
+/*********
+[Table of contents]
+
+
+1. Fonts
+2. Style for the Sign up
+3. Style for the Sign In
+4. Restyle Responsive Sign Up Form
+
+************/
+
+
+
+/*******
+1. Fonts 
+*******/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
+
+h1,h2,h3,h4,a,input,label,span{
+  font-family: 'Montserrat' !important; 
+}
+h2{
+  font-size: 30px !important;
+}
+
+
+/*****************
+2. This is style for the Sign Up form 
+*****************/
+.signup-image {
+  position: relative;
+  margin-top: 0 !important;
+}
+.signup-content .signup-image img:nth-child(2){
+  position: relative;
+  
+}
+.signup-image .signup-image-link{
+  position: relative;
+  bottom: 20px;
+}
+.signup-image .logo{
+  position: relative;
+  top: 0px;
+  right: -40px;
+  width: 80%;
+}
+.main{
+  padding: 0 !important;
+}
+
+.signup-content{
+  padding: 60px 0 !important;
+  position: relative;
+}
+
+.signup{
+  margin: 0;
+}
+/* 2. This is the style for the Sign in Form */
+
+.signin-content{
+  padding: 62px 0;
+}
+
+.signin-content .signin-image .logo{
+  width: 80%;
+  position: relative;
+  left: 40px;
+}
+.signin-content .signin-image figure{
+  margin-bottom: 0;
+}
+/*.signin-content .signin-image .signup-image-link{
+  position: relative;
+  bottom: 30px;
+}*/
+
+.signin-form{
+  position: relative;
+  top: 15px;
+}
+
+/*.main .container .signin-content .signin-image .signup-image-link{
+  text-decoration: none;
+  position: relative;  
+}*/
+/************
+Make a underline of the link
+************/
+/*.main .container .signin-content .signin-image .signup-image-link::after{
+  position: absolute;
+  content: "";
+  width: 95px;
+  border-width: 0 0 1px;
+  border-style: solid;
+  top: 22px;
+  right: 102px;
+}
+*/
+
+
+/**************
+4. ReStyle Sign Up Form
+***************/
+
+@media screen and (max-width: 768px){
+  .signup-form{
+    margin-bottom: 40px !important;
+  }
+}
